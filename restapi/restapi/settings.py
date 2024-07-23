@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'restapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'thirdeye',
-        'USER':'postgres',
-        'PASSWORD':'postgres',
-        'HOST':'localhost'
+        'USER':'shaangola',
+        'PASSWORD':'jaisairam123*',
+        'HOST':'shaangola.mysql.pythonanywhere-services.com'
     }
 }
 
